@@ -103,6 +103,8 @@ Download: |edf_tmr_script.py|
 
 If using the .v file the following code can be downloaded to triplicate the design
 
+*Note: To be able to run the design through Spydrnet TMR any instances, ports, or wires that have a \ as the first character and a space as the last character need to have them removed before replication and then replaced after triplication, but before compiling.*
+
 Download: |verilog_tmr_script.py|
 
 SpyDrNet TMR to Vivado

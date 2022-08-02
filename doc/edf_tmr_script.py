@@ -21,7 +21,7 @@ hinstances_to_replicate = list(
 # Gets all of the OUT hports in the design 
 hports_to_replicate = list(netlist.get_hports(filter=lambda x: x.item.direction is sdn.OUT))
 
-
+# Creates an after_ff dictionary with all of the hinstances and hports
 valid_voter_point_dict = dict()
 valid_voter_point_dict["after_ff"] = [
         *hinstances_to_replicate,
@@ -41,5 +41,3 @@ apply_tmr_to_netlist(
 
 # Compose the triplicated netlist
 netlist.compose("simpleCounter_tmr.edf")
-
-

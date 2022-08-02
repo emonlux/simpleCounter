@@ -118,6 +118,7 @@
 </div>
 <p>Download: <a class="reference download internal" download="" href="_downloads/ab2b1822866d78690234c026185da357/edf_tmr_script.py"><code class="xref download docutils literal notranslate"><span class="pre">edf_tmr_script.py</span></code></a></p>
 <p>If using the .v file the following code can be downloaded to triplicate the design</p>
+<p><em>Note: To be able to run the design through Spydrnet TMR any instances, ports, or wires that have a as the first character and a space as the last character need to have them removed before replication and then replaced after triplication, but before compiling.</em></p>
 <p>Download: <a class="reference download internal" download="" href="_downloads/a755b70ee196d6608be9c241b73cb1b8/verilog_tmr_script.py"><code class="xref download docutils literal notranslate"><span class="pre">verilog_tmr_script.py</span></code></a></p>
 </section>
 <section id="spydrnet-tmr-to-vivado">
@@ -125,15 +126,15 @@
 <p>Create new project in Vivado and choose Post-synthesis Project</p>
 <img alt="_images/post_synthesis.png" class="align-center" id="img-post-synthesis" src="_images/post_synthesis.png" />
 <p>If working with a .edf file, upload <strong>simpleCounter_tmr.edf</strong> that was just created and <strong>simpleCounter_tmr.xdc</strong> to the project.</p>
-<p>Download: <a class="reference download internal" download="" href="_downloads/0a501763466140458cb1e90a8c5d8a8e/simpleCounter_tmr.xdc"><code class="xref download docutils literal notranslate"><span class="pre">simpleCounter_tmr.xdc</span></code></a></p>
 <p>If working with a .v file, upload <strong>simpleCoutner_tmr.v</strong> and <strong>simpleCounter_tmr.xdc</strong> to the project.</p>
+<p>Download: <a class="reference download internal" download="" href="_downloads/0a501763466140458cb1e90a8c5d8a8e/simpleCounter_tmr.xdc"><code class="xref download docutils literal notranslate"><span class="pre">simpleCounter_tmr.xdc</span></code></a></p>
 </section>
 <section id="vivado-to-bitstream">
 <h3>Vivado to Bitstream<a class="headerlink" href="#vivado-to-bitstream" title="Permalink to this heading">¶</a></h3>
 <p>The verilog netlist asks for a top module to be specified. <em>Click on auto find</em></p>
 <p>After adding the source files for your project, go to the “Flow Navigator” window on the left hand side of the screen, and click on “Generate Bitstream” under “Program and Debug.”</p>
 <img alt="_images/vivado_screenshot3.png" class="align-center" id="img-vivado-run-generate-bitstream" src="_images/vivado_screenshot3.png" />
-<p>Once the Bitstream has been generated click on “Open Hardware Manager” under the tab “Program and Debug”, click on “Open Target” then click on “Auto Connect”, next click on “Program Device” then the box that pops up. A “Program Device” window should open up, click on program to download the bitstream to your device.</p>
+<p>Once the Bitstream has been generated click on “Open Hardware Manager” under the tab “Program and Debug”, click on “Open Target” then click on “Auto Connect”, next click on “Program Device” then click on the box that pops up. A “Program Device” window should open up, click on program to download the bitstream to your device.</p>
 </section>
 <section id="verifying-the-design-works">
 <h3>Verifying the Design Works<a class="headerlink" href="#verifying-the-design-works" title="Permalink to this heading">¶</a></h3>
