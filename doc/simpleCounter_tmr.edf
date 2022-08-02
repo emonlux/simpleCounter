@@ -4,7 +4,7 @@
   (keywordmap (keywordlevel 0))
   (status
     (written
-      (timeStamp 2022 07 22 15 08 56)
+      (timeStamp 2022 08 02 11 27 59)
       (program "Vivado" (version "2022.1"))
       (comment "Built by 'BYU spydrnet tool'")
       )
@@ -378,35 +378,11 @@
             (property INIT (string "4'h2"))
             )(instance one_shot_1_i_1_TMR_2 (viewref netlist (cellref LUT2(libraryref hdi_primitives)))
             (property INIT (string "4'h2"))
-            )(instance (rename count_reg_TMR_0_3__Q_VOTER "count_reg_TMR_0[3]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename FSM_sequential_cs_reg_TMR_0_1__Q_VOTER "FSM_sequential_cs_reg_TMR_0[1]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_1_3__Q_VOTER "count_reg_TMR_1[3]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename FSM_sequential_cs_reg_TMR_1_1__Q_VOTER "FSM_sequential_cs_reg_TMR_1[1]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_2_3__Q_VOTER "count_reg_TMR_2[3]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_0_10__Q_VOTER "count_reg_TMR_0[10]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_1_10__Q_VOTER "count_reg_TMR_1[10]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_2_10__Q_VOTER "count_reg_TMR_2[10]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_0_12__Q_VOTER "count_reg_TMR_0[12]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_1_12__Q_VOTER "count_reg_TMR_1[12]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_2_12__Q_VOTER "count_reg_TMR_2[12]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_0_13__Q_VOTER "count_reg_TMR_0[13]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_1_13__Q_VOTER "count_reg_TMR_1[13]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_2_13__Q_VOTER "count_reg_TMR_2[13]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_0_15__Q_VOTER "count_reg_TMR_0[15]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_1_15__Q_VOTER "count_reg_TMR_1[15]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_2_15__Q_VOTER "count_reg_TMR_2[15]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename FSM_sequential_cs_reg_TMR_2_1__Q_VOTER "FSM_sequential_cs_reg_TMR_2[1]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_0_6__Q_VOTER "count_reg_TMR_0[6]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
@@ -414,11 +390,11 @@
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_2_6__Q_VOTER "count_reg_TMR_2[6]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_0_8__Q_VOTER "count_reg_TMR_0[8]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename count_reg_TMR_0_13__Q_VOTER "count_reg_TMR_0[13]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_1_8__Q_VOTER "count_reg_TMR_1[8]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename count_reg_TMR_1_13__Q_VOTER "count_reg_TMR_1[13]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_2_8__Q_VOTER "count_reg_TMR_2[8]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename count_reg_TMR_2_13__Q_VOTER "count_reg_TMR_2[13]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_0_18__Q_VOTER "count_reg_TMR_0[18]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
@@ -426,17 +402,29 @@
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_2_18__Q_VOTER "count_reg_TMR_2[18]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_0_11__Q_VOTER "count_reg_TMR_0[11]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename count_reg_TMR_0_15__Q_VOTER "count_reg_TMR_0[15]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_1_11__Q_VOTER "count_reg_TMR_1[11]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename count_reg_TMR_1_15__Q_VOTER "count_reg_TMR_1[15]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_2_11__Q_VOTER "count_reg_TMR_2[11]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename count_reg_TMR_2_15__Q_VOTER "count_reg_TMR_2[15]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_0_9__Q_VOTER "count_reg_TMR_0[9]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_1_9__Q_VOTER "count_reg_TMR_1[9]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_2_9__Q_VOTER "count_reg_TMR_2[9]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_0_8__Q_VOTER "count_reg_TMR_0[8]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_1_8__Q_VOTER "count_reg_TMR_1[8]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_2_8__Q_VOTER "count_reg_TMR_2[8]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_0_11__Q_VOTER "count_reg_TMR_0[11]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_1_11__Q_VOTER "count_reg_TMR_1[11]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_2_11__Q_VOTER "count_reg_TMR_2[11]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_0_2__Q_VOTER "count_reg_TMR_0[2]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
@@ -456,11 +444,11 @@
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_2_14__Q_VOTER "count_reg_TMR_2[14]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_0_5__Q_VOTER "count_reg_TMR_0[5]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename FSM_sequential_cs_reg_TMR_0_0__Q_VOTER "FSM_sequential_cs_reg_TMR_0[0]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_1_5__Q_VOTER "count_reg_TMR_1[5]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename FSM_sequential_cs_reg_TMR_1_0__Q_VOTER "FSM_sequential_cs_reg_TMR_1[0]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_2_5__Q_VOTER "count_reg_TMR_2[5]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename FSM_sequential_cs_reg_TMR_2_0__Q_VOTER "FSM_sequential_cs_reg_TMR_2[0]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_0_16__Q_VOTER "count_reg_TMR_0[16]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
@@ -468,23 +456,29 @@
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_2_16__Q_VOTER "count_reg_TMR_2[16]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_0_7__Q_VOTER "count_reg_TMR_0[7]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_1_7__Q_VOTER "count_reg_TMR_1[7]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_2_7__Q_VOTER "count_reg_TMR_2[7]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_0_10__Q_VOTER "count_reg_TMR_0[10]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_1_10__Q_VOTER "count_reg_TMR_1[10]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_2_10__Q_VOTER "count_reg_TMR_2[10]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_0_0__Q_VOTER "count_reg_TMR_0[0]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_1_0__Q_VOTER "count_reg_TMR_1[0]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_2_0__Q_VOTER "count_reg_TMR_2[0]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename FSM_sequential_cs_reg_TMR_0_1__Q_VOTER "FSM_sequential_cs_reg_TMR_0[1]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename count_reg_TMR_0_5__Q_VOTER "count_reg_TMR_0[5]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename FSM_sequential_cs_reg_TMR_1_1__Q_VOTER "FSM_sequential_cs_reg_TMR_1[1]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename count_reg_TMR_1_5__Q_VOTER "count_reg_TMR_1[5]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename FSM_sequential_cs_reg_TMR_2_1__Q_VOTER "FSM_sequential_cs_reg_TMR_2[1]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_0_7__Q_VOTER "count_reg_TMR_0[7]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_1_7__Q_VOTER "count_reg_TMR_1[7]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance (rename count_reg_TMR_2_7__Q_VOTER "count_reg_TMR_2[7]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename count_reg_TMR_2_5__Q_VOTER "count_reg_TMR_2[5]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_0_17__Q_VOTER "count_reg_TMR_0[17]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
@@ -498,11 +492,17 @@
             (property INIT (string "8'hE8"))
             )(instance (rename count_reg_TMR_2_1__Q_VOTER "count_reg_TMR_2[1]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename FSM_sequential_cs_reg_TMR_0_0__Q_VOTER "FSM_sequential_cs_reg_TMR_0[0]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename count_reg_TMR_0_12__Q_VOTER "count_reg_TMR_0[12]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename FSM_sequential_cs_reg_TMR_1_0__Q_VOTER "FSM_sequential_cs_reg_TMR_1[0]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename count_reg_TMR_1_12__Q_VOTER "count_reg_TMR_1[12]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance (rename FSM_sequential_cs_reg_TMR_2_0__Q_VOTER "FSM_sequential_cs_reg_TMR_2[0]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            )(instance (rename count_reg_TMR_2_12__Q_VOTER "count_reg_TMR_2[12]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_0_3__Q_VOTER "count_reg_TMR_0[3]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_1_3__Q_VOTER "count_reg_TMR_1[3]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance (rename count_reg_TMR_2_3__Q_VOTER "count_reg_TMR_2[3]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(net (rename &_const0_ "<const0>") (joined
               (portref CI (instanceref count_reg_0__i_2_TMR_0))
@@ -1755,109 +1755,25 @@
               (portref O (instanceref FSM_sequential_cs_1__i_2_TMR_2))
               
               )
-            )(net (rename count_reg_TMR_0_3__Q_VOTER "count_reg_TMR_0[3]_Q_VOTER") (joined
-              (portref Q (instanceref count_reg_TMR_0_3_))
-              (portref I0 (instanceref count_reg_TMR_0_3__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_1_3__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_2_3__Q_VOTER))
+            )(net (rename FSM_sequential_cs_reg_TMR_0_1__Q_VOTER "FSM_sequential_cs_reg_TMR_0[1]_Q_VOTER") (joined
+              (portref Q (instanceref FSM_sequential_cs_reg_TMR_0_1_))
+              (portref I0 (instanceref FSM_sequential_cs_reg_TMR_0_1__Q_VOTER))
+              (portref I0 (instanceref FSM_sequential_cs_reg_TMR_1_1__Q_VOTER))
+              (portref I0 (instanceref FSM_sequential_cs_reg_TMR_2_1__Q_VOTER))
               
               )
-            )(net (rename count_reg_TMR_1_3__Q_VOTER "count_reg_TMR_1[3]_Q_VOTER") (joined
-              (portref I1 (instanceref count_reg_TMR_0_3__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_1_3__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_2_3__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_1_3_))
+            )(net (rename FSM_sequential_cs_reg_TMR_1_1__Q_VOTER "FSM_sequential_cs_reg_TMR_1[1]_Q_VOTER") (joined
+              (portref I1 (instanceref FSM_sequential_cs_reg_TMR_0_1__Q_VOTER))
+              (portref I1 (instanceref FSM_sequential_cs_reg_TMR_1_1__Q_VOTER))
+              (portref I1 (instanceref FSM_sequential_cs_reg_TMR_2_1__Q_VOTER))
+              (portref Q (instanceref FSM_sequential_cs_reg_TMR_1_1_))
               
               )
-            )(net (rename count_reg_TMR_2_3__Q_VOTER "count_reg_TMR_2[3]_Q_VOTER") (joined
-              (portref I2 (instanceref count_reg_TMR_0_3__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_1_3__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_2_3__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_2_3_))
-              
-              )
-            )(net (rename count_reg_TMR_0_10__Q_VOTER "count_reg_TMR_0[10]_Q_VOTER") (joined
-              (portref Q (instanceref count_reg_TMR_0_10_))
-              (portref I0 (instanceref count_reg_TMR_0_10__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_1_10__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_2_10__Q_VOTER))
-              
-              )
-            )(net (rename count_reg_TMR_1_10__Q_VOTER "count_reg_TMR_1[10]_Q_VOTER") (joined
-              (portref I1 (instanceref count_reg_TMR_0_10__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_1_10__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_2_10__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_1_10_))
-              
-              )
-            )(net (rename count_reg_TMR_2_10__Q_VOTER "count_reg_TMR_2[10]_Q_VOTER") (joined
-              (portref I2 (instanceref count_reg_TMR_0_10__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_1_10__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_2_10__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_2_10_))
-              
-              )
-            )(net (rename count_reg_TMR_0_12__Q_VOTER "count_reg_TMR_0[12]_Q_VOTER") (joined
-              (portref Q (instanceref count_reg_TMR_0_12_))
-              (portref I0 (instanceref count_reg_TMR_0_12__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_1_12__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_2_12__Q_VOTER))
-              
-              )
-            )(net (rename count_reg_TMR_1_12__Q_VOTER "count_reg_TMR_1[12]_Q_VOTER") (joined
-              (portref I1 (instanceref count_reg_TMR_0_12__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_1_12__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_2_12__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_1_12_))
-              
-              )
-            )(net (rename count_reg_TMR_2_12__Q_VOTER "count_reg_TMR_2[12]_Q_VOTER") (joined
-              (portref I2 (instanceref count_reg_TMR_0_12__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_1_12__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_2_12__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_2_12_))
-              
-              )
-            )(net (rename count_reg_TMR_0_13__Q_VOTER "count_reg_TMR_0[13]_Q_VOTER") (joined
-              (portref Q (instanceref count_reg_TMR_0_13_))
-              (portref I0 (instanceref count_reg_TMR_0_13__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_1_13__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_2_13__Q_VOTER))
-              
-              )
-            )(net (rename count_reg_TMR_1_13__Q_VOTER "count_reg_TMR_1[13]_Q_VOTER") (joined
-              (portref I1 (instanceref count_reg_TMR_0_13__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_1_13__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_2_13__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_1_13_))
-              
-              )
-            )(net (rename count_reg_TMR_2_13__Q_VOTER "count_reg_TMR_2[13]_Q_VOTER") (joined
-              (portref I2 (instanceref count_reg_TMR_0_13__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_1_13__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_2_13__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_2_13_))
-              
-              )
-            )(net (rename count_reg_TMR_0_15__Q_VOTER "count_reg_TMR_0[15]_Q_VOTER") (joined
-              (portref Q (instanceref count_reg_TMR_0_15_))
-              (portref I0 (instanceref count_reg_TMR_0_15__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_1_15__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_2_15__Q_VOTER))
-              
-              )
-            )(net (rename count_reg_TMR_1_15__Q_VOTER "count_reg_TMR_1[15]_Q_VOTER") (joined
-              (portref I1 (instanceref count_reg_TMR_0_15__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_1_15__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_2_15__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_1_15_))
-              
-              )
-            )(net (rename count_reg_TMR_2_15__Q_VOTER "count_reg_TMR_2[15]_Q_VOTER") (joined
-              (portref I2 (instanceref count_reg_TMR_0_15__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_1_15__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_2_15__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_2_15_))
+            )(net (rename FSM_sequential_cs_reg_TMR_2_1__Q_VOTER "FSM_sequential_cs_reg_TMR_2[1]_Q_VOTER") (joined
+              (portref I2 (instanceref FSM_sequential_cs_reg_TMR_0_1__Q_VOTER))
+              (portref I2 (instanceref FSM_sequential_cs_reg_TMR_1_1__Q_VOTER))
+              (portref I2 (instanceref FSM_sequential_cs_reg_TMR_2_1__Q_VOTER))
+              (portref Q (instanceref FSM_sequential_cs_reg_TMR_2_1_))
               
               )
             )(net (rename count_reg_TMR_0_6__Q_VOTER "count_reg_TMR_0[6]_Q_VOTER") (joined
@@ -1881,25 +1797,25 @@
               (portref Q (instanceref count_reg_TMR_2_6_))
               
               )
-            )(net (rename count_reg_TMR_0_8__Q_VOTER "count_reg_TMR_0[8]_Q_VOTER") (joined
-              (portref Q (instanceref count_reg_TMR_0_8_))
-              (portref I0 (instanceref count_reg_TMR_0_8__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_1_8__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_2_8__Q_VOTER))
+            )(net (rename count_reg_TMR_0_13__Q_VOTER "count_reg_TMR_0[13]_Q_VOTER") (joined
+              (portref Q (instanceref count_reg_TMR_0_13_))
+              (portref I0 (instanceref count_reg_TMR_0_13__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_1_13__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_2_13__Q_VOTER))
               
               )
-            )(net (rename count_reg_TMR_1_8__Q_VOTER "count_reg_TMR_1[8]_Q_VOTER") (joined
-              (portref I1 (instanceref count_reg_TMR_0_8__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_1_8__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_2_8__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_1_8_))
+            )(net (rename count_reg_TMR_1_13__Q_VOTER "count_reg_TMR_1[13]_Q_VOTER") (joined
+              (portref I1 (instanceref count_reg_TMR_0_13__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_1_13__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_2_13__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_1_13_))
               
               )
-            )(net (rename count_reg_TMR_2_8__Q_VOTER "count_reg_TMR_2[8]_Q_VOTER") (joined
-              (portref I2 (instanceref count_reg_TMR_0_8__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_1_8__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_2_8__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_2_8_))
+            )(net (rename count_reg_TMR_2_13__Q_VOTER "count_reg_TMR_2[13]_Q_VOTER") (joined
+              (portref I2 (instanceref count_reg_TMR_0_13__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_1_13__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_2_13__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_2_13_))
               
               )
             )(net (rename count_reg_TMR_0_18__Q_VOTER "count_reg_TMR_0[18]_Q_VOTER") (joined
@@ -1923,25 +1839,25 @@
               (portref Q (instanceref count_reg_TMR_2_18_))
               
               )
-            )(net (rename count_reg_TMR_0_11__Q_VOTER "count_reg_TMR_0[11]_Q_VOTER") (joined
-              (portref Q (instanceref count_reg_TMR_0_11_))
-              (portref I0 (instanceref count_reg_TMR_0_11__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_1_11__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_2_11__Q_VOTER))
+            )(net (rename count_reg_TMR_0_15__Q_VOTER "count_reg_TMR_0[15]_Q_VOTER") (joined
+              (portref Q (instanceref count_reg_TMR_0_15_))
+              (portref I0 (instanceref count_reg_TMR_0_15__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_1_15__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_2_15__Q_VOTER))
               
               )
-            )(net (rename count_reg_TMR_1_11__Q_VOTER "count_reg_TMR_1[11]_Q_VOTER") (joined
-              (portref I1 (instanceref count_reg_TMR_0_11__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_1_11__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_2_11__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_1_11_))
+            )(net (rename count_reg_TMR_1_15__Q_VOTER "count_reg_TMR_1[15]_Q_VOTER") (joined
+              (portref I1 (instanceref count_reg_TMR_0_15__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_1_15__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_2_15__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_1_15_))
               
               )
-            )(net (rename count_reg_TMR_2_11__Q_VOTER "count_reg_TMR_2[11]_Q_VOTER") (joined
-              (portref I2 (instanceref count_reg_TMR_0_11__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_1_11__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_2_11__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_2_11_))
+            )(net (rename count_reg_TMR_2_15__Q_VOTER "count_reg_TMR_2[15]_Q_VOTER") (joined
+              (portref I2 (instanceref count_reg_TMR_0_15__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_1_15__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_2_15__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_2_15_))
               
               )
             )(net (rename count_reg_TMR_0_9__Q_VOTER "count_reg_TMR_0[9]_Q_VOTER") (joined
@@ -1963,6 +1879,48 @@
               (portref I2 (instanceref count_reg_TMR_1_9__Q_VOTER))
               (portref I2 (instanceref count_reg_TMR_2_9__Q_VOTER))
               (portref Q (instanceref count_reg_TMR_2_9_))
+              
+              )
+            )(net (rename count_reg_TMR_0_8__Q_VOTER "count_reg_TMR_0[8]_Q_VOTER") (joined
+              (portref Q (instanceref count_reg_TMR_0_8_))
+              (portref I0 (instanceref count_reg_TMR_0_8__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_1_8__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_2_8__Q_VOTER))
+              
+              )
+            )(net (rename count_reg_TMR_1_8__Q_VOTER "count_reg_TMR_1[8]_Q_VOTER") (joined
+              (portref I1 (instanceref count_reg_TMR_0_8__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_1_8__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_2_8__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_1_8_))
+              
+              )
+            )(net (rename count_reg_TMR_2_8__Q_VOTER "count_reg_TMR_2[8]_Q_VOTER") (joined
+              (portref I2 (instanceref count_reg_TMR_0_8__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_1_8__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_2_8__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_2_8_))
+              
+              )
+            )(net (rename count_reg_TMR_0_11__Q_VOTER "count_reg_TMR_0[11]_Q_VOTER") (joined
+              (portref Q (instanceref count_reg_TMR_0_11_))
+              (portref I0 (instanceref count_reg_TMR_0_11__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_1_11__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_2_11__Q_VOTER))
+              
+              )
+            )(net (rename count_reg_TMR_1_11__Q_VOTER "count_reg_TMR_1[11]_Q_VOTER") (joined
+              (portref I1 (instanceref count_reg_TMR_0_11__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_1_11__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_2_11__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_1_11_))
+              
+              )
+            )(net (rename count_reg_TMR_2_11__Q_VOTER "count_reg_TMR_2[11]_Q_VOTER") (joined
+              (portref I2 (instanceref count_reg_TMR_0_11__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_1_11__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_2_11__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_2_11_))
               
               )
             )(net (rename count_reg_TMR_0_2__Q_VOTER "count_reg_TMR_0[2]_Q_VOTER") (joined
@@ -2028,25 +1986,25 @@
               (portref Q (instanceref count_reg_TMR_2_14_))
               
               )
-            )(net (rename count_reg_TMR_0_5__Q_VOTER "count_reg_TMR_0[5]_Q_VOTER") (joined
-              (portref Q (instanceref count_reg_TMR_0_5_))
-              (portref I0 (instanceref count_reg_TMR_0_5__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_1_5__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_2_5__Q_VOTER))
+            )(net (rename FSM_sequential_cs_reg_TMR_0_0__Q_VOTER "FSM_sequential_cs_reg_TMR_0[0]_Q_VOTER") (joined
+              (portref Q (instanceref FSM_sequential_cs_reg_TMR_0_0_))
+              (portref I0 (instanceref FSM_sequential_cs_reg_TMR_0_0__Q_VOTER))
+              (portref I0 (instanceref FSM_sequential_cs_reg_TMR_1_0__Q_VOTER))
+              (portref I0 (instanceref FSM_sequential_cs_reg_TMR_2_0__Q_VOTER))
               
               )
-            )(net (rename count_reg_TMR_1_5__Q_VOTER "count_reg_TMR_1[5]_Q_VOTER") (joined
-              (portref I1 (instanceref count_reg_TMR_0_5__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_1_5__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_2_5__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_1_5_))
+            )(net (rename FSM_sequential_cs_reg_TMR_1_0__Q_VOTER "FSM_sequential_cs_reg_TMR_1[0]_Q_VOTER") (joined
+              (portref I1 (instanceref FSM_sequential_cs_reg_TMR_0_0__Q_VOTER))
+              (portref I1 (instanceref FSM_sequential_cs_reg_TMR_1_0__Q_VOTER))
+              (portref I1 (instanceref FSM_sequential_cs_reg_TMR_2_0__Q_VOTER))
+              (portref Q (instanceref FSM_sequential_cs_reg_TMR_1_0_))
               
               )
-            )(net (rename count_reg_TMR_2_5__Q_VOTER "count_reg_TMR_2[5]_Q_VOTER") (joined
-              (portref I2 (instanceref count_reg_TMR_0_5__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_1_5__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_2_5__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_2_5_))
+            )(net (rename FSM_sequential_cs_reg_TMR_2_0__Q_VOTER "FSM_sequential_cs_reg_TMR_2[0]_Q_VOTER") (joined
+              (portref I2 (instanceref FSM_sequential_cs_reg_TMR_0_0__Q_VOTER))
+              (portref I2 (instanceref FSM_sequential_cs_reg_TMR_1_0__Q_VOTER))
+              (portref I2 (instanceref FSM_sequential_cs_reg_TMR_2_0__Q_VOTER))
+              (portref Q (instanceref FSM_sequential_cs_reg_TMR_2_0_))
               
               )
             )(net (rename count_reg_TMR_0_16__Q_VOTER "count_reg_TMR_0[16]_Q_VOTER") (joined
@@ -2070,6 +2028,48 @@
               (portref Q (instanceref count_reg_TMR_2_16_))
               
               )
+            )(net (rename count_reg_TMR_0_7__Q_VOTER "count_reg_TMR_0[7]_Q_VOTER") (joined
+              (portref Q (instanceref count_reg_TMR_0_7_))
+              (portref I0 (instanceref count_reg_TMR_0_7__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_1_7__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_2_7__Q_VOTER))
+              
+              )
+            )(net (rename count_reg_TMR_1_7__Q_VOTER "count_reg_TMR_1[7]_Q_VOTER") (joined
+              (portref I1 (instanceref count_reg_TMR_0_7__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_1_7__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_2_7__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_1_7_))
+              
+              )
+            )(net (rename count_reg_TMR_2_7__Q_VOTER "count_reg_TMR_2[7]_Q_VOTER") (joined
+              (portref I2 (instanceref count_reg_TMR_0_7__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_1_7__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_2_7__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_2_7_))
+              
+              )
+            )(net (rename count_reg_TMR_0_10__Q_VOTER "count_reg_TMR_0[10]_Q_VOTER") (joined
+              (portref Q (instanceref count_reg_TMR_0_10_))
+              (portref I0 (instanceref count_reg_TMR_0_10__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_1_10__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_2_10__Q_VOTER))
+              
+              )
+            )(net (rename count_reg_TMR_1_10__Q_VOTER "count_reg_TMR_1[10]_Q_VOTER") (joined
+              (portref I1 (instanceref count_reg_TMR_0_10__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_1_10__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_2_10__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_1_10_))
+              
+              )
+            )(net (rename count_reg_TMR_2_10__Q_VOTER "count_reg_TMR_2[10]_Q_VOTER") (joined
+              (portref I2 (instanceref count_reg_TMR_0_10__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_1_10__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_2_10__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_2_10_))
+              
+              )
             )(net (rename count_reg_TMR_0_0__Q_VOTER "count_reg_TMR_0[0]_Q_VOTER") (joined
               (portref Q (instanceref count_reg_TMR_0_0_))
               (portref I0 (instanceref count_reg_TMR_0_0__Q_VOTER))
@@ -2091,46 +2091,25 @@
               (portref Q (instanceref count_reg_TMR_2_0_))
               
               )
-            )(net (rename FSM_sequential_cs_reg_TMR_0_1__Q_VOTER "FSM_sequential_cs_reg_TMR_0[1]_Q_VOTER") (joined
-              (portref Q (instanceref FSM_sequential_cs_reg_TMR_0_1_))
-              (portref I0 (instanceref FSM_sequential_cs_reg_TMR_0_1__Q_VOTER))
-              (portref I0 (instanceref FSM_sequential_cs_reg_TMR_1_1__Q_VOTER))
-              (portref I0 (instanceref FSM_sequential_cs_reg_TMR_2_1__Q_VOTER))
+            )(net (rename count_reg_TMR_0_5__Q_VOTER "count_reg_TMR_0[5]_Q_VOTER") (joined
+              (portref Q (instanceref count_reg_TMR_0_5_))
+              (portref I0 (instanceref count_reg_TMR_0_5__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_1_5__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_2_5__Q_VOTER))
               
               )
-            )(net (rename FSM_sequential_cs_reg_TMR_1_1__Q_VOTER "FSM_sequential_cs_reg_TMR_1[1]_Q_VOTER") (joined
-              (portref I1 (instanceref FSM_sequential_cs_reg_TMR_0_1__Q_VOTER))
-              (portref I1 (instanceref FSM_sequential_cs_reg_TMR_1_1__Q_VOTER))
-              (portref I1 (instanceref FSM_sequential_cs_reg_TMR_2_1__Q_VOTER))
-              (portref Q (instanceref FSM_sequential_cs_reg_TMR_1_1_))
+            )(net (rename count_reg_TMR_1_5__Q_VOTER "count_reg_TMR_1[5]_Q_VOTER") (joined
+              (portref I1 (instanceref count_reg_TMR_0_5__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_1_5__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_2_5__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_1_5_))
               
               )
-            )(net (rename FSM_sequential_cs_reg_TMR_2_1__Q_VOTER "FSM_sequential_cs_reg_TMR_2[1]_Q_VOTER") (joined
-              (portref I2 (instanceref FSM_sequential_cs_reg_TMR_0_1__Q_VOTER))
-              (portref I2 (instanceref FSM_sequential_cs_reg_TMR_1_1__Q_VOTER))
-              (portref I2 (instanceref FSM_sequential_cs_reg_TMR_2_1__Q_VOTER))
-              (portref Q (instanceref FSM_sequential_cs_reg_TMR_2_1_))
-              
-              )
-            )(net (rename count_reg_TMR_0_7__Q_VOTER "count_reg_TMR_0[7]_Q_VOTER") (joined
-              (portref Q (instanceref count_reg_TMR_0_7_))
-              (portref I0 (instanceref count_reg_TMR_0_7__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_1_7__Q_VOTER))
-              (portref I0 (instanceref count_reg_TMR_2_7__Q_VOTER))
-              
-              )
-            )(net (rename count_reg_TMR_1_7__Q_VOTER "count_reg_TMR_1[7]_Q_VOTER") (joined
-              (portref I1 (instanceref count_reg_TMR_0_7__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_1_7__Q_VOTER))
-              (portref I1 (instanceref count_reg_TMR_2_7__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_1_7_))
-              
-              )
-            )(net (rename count_reg_TMR_2_7__Q_VOTER "count_reg_TMR_2[7]_Q_VOTER") (joined
-              (portref I2 (instanceref count_reg_TMR_0_7__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_1_7__Q_VOTER))
-              (portref I2 (instanceref count_reg_TMR_2_7__Q_VOTER))
-              (portref Q (instanceref count_reg_TMR_2_7_))
+            )(net (rename count_reg_TMR_2_5__Q_VOTER "count_reg_TMR_2[5]_Q_VOTER") (joined
+              (portref I2 (instanceref count_reg_TMR_0_5__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_1_5__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_2_5__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_2_5_))
               
               )
             )(net (rename count_reg_TMR_0_17__Q_VOTER "count_reg_TMR_0[17]_Q_VOTER") (joined
@@ -2175,25 +2154,46 @@
               (portref Q (instanceref count_reg_TMR_2_1_))
               
               )
-            )(net (rename FSM_sequential_cs_reg_TMR_0_0__Q_VOTER "FSM_sequential_cs_reg_TMR_0[0]_Q_VOTER") (joined
-              (portref Q (instanceref FSM_sequential_cs_reg_TMR_0_0_))
-              (portref I0 (instanceref FSM_sequential_cs_reg_TMR_0_0__Q_VOTER))
-              (portref I0 (instanceref FSM_sequential_cs_reg_TMR_1_0__Q_VOTER))
-              (portref I0 (instanceref FSM_sequential_cs_reg_TMR_2_0__Q_VOTER))
+            )(net (rename count_reg_TMR_0_12__Q_VOTER "count_reg_TMR_0[12]_Q_VOTER") (joined
+              (portref Q (instanceref count_reg_TMR_0_12_))
+              (portref I0 (instanceref count_reg_TMR_0_12__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_1_12__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_2_12__Q_VOTER))
               
               )
-            )(net (rename FSM_sequential_cs_reg_TMR_1_0__Q_VOTER "FSM_sequential_cs_reg_TMR_1[0]_Q_VOTER") (joined
-              (portref I1 (instanceref FSM_sequential_cs_reg_TMR_0_0__Q_VOTER))
-              (portref I1 (instanceref FSM_sequential_cs_reg_TMR_1_0__Q_VOTER))
-              (portref I1 (instanceref FSM_sequential_cs_reg_TMR_2_0__Q_VOTER))
-              (portref Q (instanceref FSM_sequential_cs_reg_TMR_1_0_))
+            )(net (rename count_reg_TMR_1_12__Q_VOTER "count_reg_TMR_1[12]_Q_VOTER") (joined
+              (portref I1 (instanceref count_reg_TMR_0_12__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_1_12__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_2_12__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_1_12_))
               
               )
-            )(net (rename FSM_sequential_cs_reg_TMR_2_0__Q_VOTER "FSM_sequential_cs_reg_TMR_2[0]_Q_VOTER") (joined
-              (portref I2 (instanceref FSM_sequential_cs_reg_TMR_0_0__Q_VOTER))
-              (portref I2 (instanceref FSM_sequential_cs_reg_TMR_1_0__Q_VOTER))
-              (portref I2 (instanceref FSM_sequential_cs_reg_TMR_2_0__Q_VOTER))
-              (portref Q (instanceref FSM_sequential_cs_reg_TMR_2_0_))
+            )(net (rename count_reg_TMR_2_12__Q_VOTER "count_reg_TMR_2[12]_Q_VOTER") (joined
+              (portref I2 (instanceref count_reg_TMR_0_12__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_1_12__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_2_12__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_2_12_))
+              
+              )
+            )(net (rename count_reg_TMR_0_3__Q_VOTER "count_reg_TMR_0[3]_Q_VOTER") (joined
+              (portref Q (instanceref count_reg_TMR_0_3_))
+              (portref I0 (instanceref count_reg_TMR_0_3__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_1_3__Q_VOTER))
+              (portref I0 (instanceref count_reg_TMR_2_3__Q_VOTER))
+              
+              )
+            )(net (rename count_reg_TMR_1_3__Q_VOTER "count_reg_TMR_1[3]_Q_VOTER") (joined
+              (portref I1 (instanceref count_reg_TMR_0_3__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_1_3__Q_VOTER))
+              (portref I1 (instanceref count_reg_TMR_2_3__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_1_3_))
+              
+              )
+            )(net (rename count_reg_TMR_2_3__Q_VOTER "count_reg_TMR_2[3]_Q_VOTER") (joined
+              (portref I2 (instanceref count_reg_TMR_0_3__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_1_3__Q_VOTER))
+              (portref I2 (instanceref count_reg_TMR_2_3__Q_VOTER))
+              (portref Q (instanceref count_reg_TMR_2_3_))
               
               )
             ))
@@ -2319,6 +2319,12 @@
             (property INIT (string "1'b0"))
             )(instance one_shot_2_reg_TMR_2 (viewref netlist (cellref FDRE(libraryref hdi_primitives)))
             (property INIT (string "1'b0"))
+            )(instance f2_reg_TMR_0_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance f2_reg_TMR_1_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance f2_reg_TMR_2_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
             )(instance (rename led_reg_TMR_0_1__Q_VOTER "led_reg_TMR_0[1]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename led_reg_TMR_1_1__Q_VOTER "led_reg_TMR_1[1]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
@@ -2330,6 +2336,12 @@
             )(instance (rename led_reg_TMR_1_3__Q_VOTER "led_reg_TMR_1[3]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename led_reg_TMR_2_3__Q_VOTER "led_reg_TMR_2[3]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance f1_reg_TMR_0_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance f1_reg_TMR_1_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
+            (property INIT (string "8'hE8"))
+            )(instance f1_reg_TMR_2_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance one_shot_1_reg_TMR_0_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
@@ -2343,12 +2355,6 @@
             (property INIT (string "8'hE8"))
             )(instance (rename led_reg_TMR_2_0__Q_VOTER "led_reg_TMR_2[0]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
-            )(instance f2_reg_TMR_0_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance f2_reg_TMR_1_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance f2_reg_TMR_2_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
             )(instance (rename led_reg_TMR_0_2__Q_VOTER "led_reg_TMR_0[2]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance (rename led_reg_TMR_1_2__Q_VOTER "led_reg_TMR_1[2]_Q_VOTER") (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
@@ -2360,12 +2366,6 @@
             )(instance one_shot_2_reg_TMR_1_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(instance one_shot_2_reg_TMR_2_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance f1_reg_TMR_0_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance f1_reg_TMR_1_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
-            (property INIT (string "8'hE8"))
-            )(instance f1_reg_TMR_2_Q_VOTER (viewref netlist (cellref LUT3(libraryref hdi_primitives)))
             (property INIT (string "8'hE8"))
             )(net (rename &_const0_ "<const0>") (joined
               (portref G (instanceref GND))
@@ -2784,6 +2784,27 @@
               (portref O (instanceref led_3__i_2_TMR_2))
               
               )
+            )(net f2_reg_TMR_0_Q_VOTER (joined
+              (portref Q (instanceref f2_reg_TMR_0))
+              (portref I0 (instanceref f2_reg_TMR_0_Q_VOTER))
+              (portref I0 (instanceref f2_reg_TMR_1_Q_VOTER))
+              (portref I0 (instanceref f2_reg_TMR_2_Q_VOTER))
+              
+              )
+            )(net f2_reg_TMR_1_Q_VOTER (joined
+              (portref I1 (instanceref f2_reg_TMR_0_Q_VOTER))
+              (portref I1 (instanceref f2_reg_TMR_1_Q_VOTER))
+              (portref I1 (instanceref f2_reg_TMR_2_Q_VOTER))
+              (portref Q (instanceref f2_reg_TMR_1))
+              
+              )
+            )(net f2_reg_TMR_2_Q_VOTER (joined
+              (portref I2 (instanceref f2_reg_TMR_0_Q_VOTER))
+              (portref I2 (instanceref f2_reg_TMR_1_Q_VOTER))
+              (portref I2 (instanceref f2_reg_TMR_2_Q_VOTER))
+              (portref Q (instanceref f2_reg_TMR_2))
+              
+              )
             )(net (rename led_reg_TMR_0_1__Q_VOTER "led_reg_TMR_0[1]_Q_VOTER") (joined
               (portref Q (instanceref led_reg_TMR_0_1_))
               (portref I0 (instanceref led_reg_TMR_0_1__Q_VOTER))
@@ -2824,6 +2845,27 @@
               (portref I2 (instanceref led_reg_TMR_1_3__Q_VOTER))
               (portref I2 (instanceref led_reg_TMR_2_3__Q_VOTER))
               (portref Q (instanceref led_reg_TMR_2_3_))
+              
+              )
+            )(net f1_reg_TMR_0_Q_VOTER (joined
+              (portref Q (instanceref f1_reg_TMR_0))
+              (portref I0 (instanceref f1_reg_TMR_0_Q_VOTER))
+              (portref I0 (instanceref f1_reg_TMR_1_Q_VOTER))
+              (portref I0 (instanceref f1_reg_TMR_2_Q_VOTER))
+              
+              )
+            )(net f1_reg_TMR_1_Q_VOTER (joined
+              (portref I1 (instanceref f1_reg_TMR_0_Q_VOTER))
+              (portref I1 (instanceref f1_reg_TMR_1_Q_VOTER))
+              (portref I1 (instanceref f1_reg_TMR_2_Q_VOTER))
+              (portref Q (instanceref f1_reg_TMR_1))
+              
+              )
+            )(net f1_reg_TMR_2_Q_VOTER (joined
+              (portref I2 (instanceref f1_reg_TMR_0_Q_VOTER))
+              (portref I2 (instanceref f1_reg_TMR_1_Q_VOTER))
+              (portref I2 (instanceref f1_reg_TMR_2_Q_VOTER))
+              (portref Q (instanceref f1_reg_TMR_2))
               
               )
             )(net one_shot_1_reg_TMR_0_Q_VOTER (joined
@@ -2868,27 +2910,6 @@
               (portref Q (instanceref led_reg_TMR_2_0_))
               
               )
-            )(net f2_reg_TMR_0_Q_VOTER (joined
-              (portref Q (instanceref f2_reg_TMR_0))
-              (portref I0 (instanceref f2_reg_TMR_0_Q_VOTER))
-              (portref I0 (instanceref f2_reg_TMR_1_Q_VOTER))
-              (portref I0 (instanceref f2_reg_TMR_2_Q_VOTER))
-              
-              )
-            )(net f2_reg_TMR_1_Q_VOTER (joined
-              (portref I1 (instanceref f2_reg_TMR_0_Q_VOTER))
-              (portref I1 (instanceref f2_reg_TMR_1_Q_VOTER))
-              (portref I1 (instanceref f2_reg_TMR_2_Q_VOTER))
-              (portref Q (instanceref f2_reg_TMR_1))
-              
-              )
-            )(net f2_reg_TMR_2_Q_VOTER (joined
-              (portref I2 (instanceref f2_reg_TMR_0_Q_VOTER))
-              (portref I2 (instanceref f2_reg_TMR_1_Q_VOTER))
-              (portref I2 (instanceref f2_reg_TMR_2_Q_VOTER))
-              (portref Q (instanceref f2_reg_TMR_2))
-              
-              )
             )(net (rename led_reg_TMR_0_2__Q_VOTER "led_reg_TMR_0[2]_Q_VOTER") (joined
               (portref Q (instanceref led_reg_TMR_0_2_))
               (portref I0 (instanceref led_reg_TMR_0_2__Q_VOTER))
@@ -2929,27 +2950,6 @@
               (portref I2 (instanceref one_shot_2_reg_TMR_1_Q_VOTER))
               (portref I2 (instanceref one_shot_2_reg_TMR_2_Q_VOTER))
               (portref Q (instanceref one_shot_2_reg_TMR_2))
-              
-              )
-            )(net f1_reg_TMR_0_Q_VOTER (joined
-              (portref Q (instanceref f1_reg_TMR_0))
-              (portref I0 (instanceref f1_reg_TMR_0_Q_VOTER))
-              (portref I0 (instanceref f1_reg_TMR_1_Q_VOTER))
-              (portref I0 (instanceref f1_reg_TMR_2_Q_VOTER))
-              
-              )
-            )(net f1_reg_TMR_1_Q_VOTER (joined
-              (portref I1 (instanceref f1_reg_TMR_0_Q_VOTER))
-              (portref I1 (instanceref f1_reg_TMR_1_Q_VOTER))
-              (portref I1 (instanceref f1_reg_TMR_2_Q_VOTER))
-              (portref Q (instanceref f1_reg_TMR_1))
-              
-              )
-            )(net f1_reg_TMR_2_Q_VOTER (joined
-              (portref I2 (instanceref f1_reg_TMR_0_Q_VOTER))
-              (portref I2 (instanceref f1_reg_TMR_1_Q_VOTER))
-              (portref I2 (instanceref f1_reg_TMR_2_Q_VOTER))
-              (portref Q (instanceref f1_reg_TMR_2))
               
               )
             ))

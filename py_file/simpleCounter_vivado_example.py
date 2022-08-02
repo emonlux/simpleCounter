@@ -4,7 +4,7 @@ SpyDrNet TMR using Vivado - Simple Counter
 ==========================================
 
 .. note::
-   The Verilog Netlist portion of this example is still being worked on
+   The Verilog Netlist portion of this example is not functioning properly
 
 Uploading the Verilog HDL into Vivado
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -103,7 +103,7 @@ Download: |edf_tmr_script.py|
 
 If using the .v file the following code can be downloaded to triplicate the design
 
-*Note: To be able to run the design through Spydrnet TMR any instances, ports, or wires that have a \ as the first character and a space as the last character need to have them removed before replication and then replaced after triplication, but before compiling.*
+*Note: To be able to run the design through Spydrnet TMR any instances, ports, or wires that have a \ as the first character and a space as the last character need to have them removed before replication and then replaced after triplication, but before composing.*
 
 Download: |verilog_tmr_script.py|
 

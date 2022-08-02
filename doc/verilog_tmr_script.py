@@ -3,6 +3,11 @@ from spydrnet.uniquify import uniquify
 from spydrnet_tmr.support_files.vendor_names import XILINX
 from spydrnet_tmr.apply_tmr_to_netlist import apply_tmr_to_netlist
 from spydrnet.util.architecture import XILINX_7SERIES
+from spydrnet_tmr.analysis.voter_insertion.find_after_ff_voter_points import (
+    find_after_ff_voter_points,
+)
+from spydrnet_tmr import apply_nmr, insert_organs
+from spydrnet_tmr.transformation.replication.organ import XilinxTMRVoterVerilog
 
 # Parse in the downloaded .v netlist
 netlist = sdn.parse("simpleCounter.v",architecture=XILINX_7SERIES)
@@ -21,6 +26,10 @@ hinstances_to_replicate = list(
 
 # Gets all of the OUT hports in the design 
 hports_to_replicate = list(netlist.get_hports(filter = lambda x: x.item.direction is sdn.OUT))
+
+instances_to_replicate = list(x.item for x in hinstances_to_replicate)
+
+ports_to_replicate = list(x.item for x in hports_to_replicate)
 
 # Removes the \ and space in instance names
 for hinst in hinstances_to_replicate:
@@ -47,16 +56,30 @@ valid_voter_point_dict["after_ff"] = [
         *hports_to_replicate,
     ]
 
-# Triplicates the design and inserts the voters
-apply_tmr_to_netlist(
-        netlist,
-        XILINX,
-        hinstances_and_hports_to_replicate=[
-            *hinstances_to_replicate,
-            *hports_to_replicate,
-        ],
-        valid_voter_point_dict=valid_voter_point_dict,
-    )
+# # Triplicates the design and inserts the voters
+# apply_tmr_to_netlist(
+#         netlist,
+#         XILINX,
+#         hinstances_and_hports_to_replicate=[
+#             *hinstances_to_replicate,
+#             *hports_to_replicate,
+#         ],
+#         valid_voter_point_dict=valid_voter_point_dict,
+#     )
+
+insertion_points = find_after_ff_voter_points(netlist,
+    [*hinstances_to_replicate, *hports_to_replicate],
+    XILINX
+)
+
+replicas = apply_nmr(
+    [*instances_to_replicate, *ports_to_replicate],
+    3,
+    name_suffix="TMR",
+    rename_original=True,
+)
+
+voters = insert_organs(replicas, insertion_points, XilinxTMRVoterVerilog(), "VOTER")
 
 # Adds the \ and space back in instance names
 for inst in netlist.get_instances():
